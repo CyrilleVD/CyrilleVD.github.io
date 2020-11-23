@@ -1,0 +1,443 @@
+
+
+/*
+ 			INFO 
+ */
+/* Ik maak gebruik van viewportwidth omdat dit beter is voor schalen.
+in websites.  */
+/* Ik gebruik meestal Margin waarden 
+(positief of negatief(voor verplaatsing)) 
+voor het verplaatsen van elementen tegenover hun 
+originele positie inplaats van position: relative 
+omdat dit het overlappen van elementen vermeid*/
+
+
+
+/* algemene opmaak */
+body, footer {
+	font-family: 'Roboto', sans-serif;
+	overflow-x:hidden;
+	font-size:62.5%;
+}
+html {
+  scroll-behavior: smooth;
+}
+img {
+	width:20%;
+}
+section, #sections {
+	width:80%;
+	margin:0 auto;
+}
+h2{
+	color:rgb(208,196,131);
+	font-family: 'Roboto Mono ', monospace;
+	font-size:3vw;
+	margin: -15px 0 0 0;
+}
+p{
+	font-size:1.2vw;
+}
+span{
+	font-family: 'Roboto Mono 300 light', monospace;
+}
+hr {
+	color:rgb(208,196,131);
+}
+
+
+/* Navigatie & titel opmaak */
+nav {
+	width:100%;
+	text-align:left;
+	position: relative;
+	bottom:10px;
+	padding:10px;
+	z-index:100;
+}
+li{
+	display:inline;
+	margin:30px 15px 15px 15px;
+	padding:0 10px 0 10px;
+}
+a {
+	text-decoration: none;
+	color:black;
+	font-size:1.3vw;
+	font-family: 'Roboto Bold', sans-serif;
+	padding:5px;
+}
+header>div>nav>div span{
+	display:none;
+}
+header>div>nav>div input{
+	display:none;
+}
+a:hover{
+	background-color:rgb(118,105,96);
+	color:white;
+	font-style:bold;
+}
+header>div:nth-child(1){
+	display: flex;
+	justify-content: space-around;
+	padding:20px 0 0 0;
+
+}
+header>div:nth-child(2) {
+	background-image:url("../img/Header.jpg");
+	height:50vw;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-attachment: fixed;
+	background-size:100%;
+}
+h1 {
+	font-size:2.3vw;
+	text-align:left;
+	flex-basis:32%;
+	position: relative;
+	bottom:0.7vw;
+	padding-bottom:5px;
+	position:right;
+	color:rgb(208,196,131);
+	}
+
+
+
+/* opmaak deel 1 biography*/
+body>main>section:nth-child(1)>div:nth-child(1){
+	display:flex;
+	justify-content: space-between;
+	margin:150px 0 0 0;
+}
+body>main>section:nth-child(1)>div:nth-child(1)>figure{
+	padding:15px;
+	flex-basis:33.33%;
+}
+body>main>section:nth-child(1)>div:nth-child(1)>figure>img{
+	width:100%;
+}
+body>main>section:nth-child(1)>div:nth-child(1)>div{
+	padding:15px;
+	flex-basis:33.33%;
+}
+body>main>section:nth-child(1)>div:nth-child(1)>div>h2{
+	text-align:right;
+}
+body>main>section:nth-child(1)>div:nth-child(1)>div>hr{
+    height: 10px;
+    border: 0;
+    border-top: 0.4vw solid ;
+    margin: 0;
+    margin-left:-8vw;
+    margin-top:-1vw;
+}
+body>main>section:nth-child(1)>div:nth-child(1)>p{
+	padding:15px;
+	flex-basis:33.33%;
+	position: relative;
+	top:3.7vw;
+}
+
+
+
+/* opmaak deel 2 biography*/
+body>main>section:nth-child(1)>article{
+	display:flex;
+	justify-content: space-between;
+	position: relative;
+	top:1vw;
+}
+body>main>section:nth-child(1)>article>figure{
+	flex-basis:66.66%;
+	padding:15px;
+}
+body>main>section:nth-child(1)>article>figure>img{
+	width:100%;
+}
+body>main>section:nth-child(1)>article>div>blockquote{
+	text-align: center;
+	color:rgb(208,196,131);
+	font-size:2.3vw;
+	font-family: 'Dancing Script', cursive;
+
+}
+body>main>section:nth-child(1)>article>div>hr{
+	height: 10px;
+    border: 0;
+    border-top: 0.3vw solid ;
+    width:60%
+}
+body>main>section:nth-child(1)>article>div{
+margin: 0 auto;
+position: relative;
+flex-basis:33.33%;
+padding-right:15px;
+top:10vw;
+}
+body>main>div{
+	background-image:url(../img/patroon.png);
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-attachment: fixed;
+	background-size:100%;
+	height:400px;
+}
+
+
+
+/* opmaak filmography*/
+#Roze1 {
+	width:100%;
+	background-color:rgb(243,223,225);
+	padding:5vw 0 10vw;
+}
+.sections {
+	width: 80%;
+	margin:0 auto;
+}
+#Roze1>.sections>div>h2{
+	color:white;
+}
+#Roze1>.sections>div>hr{
+	 height: 10px;
+    border: 0;
+    border-top: 0.4vw solid white;
+    margin: 0;
+    position: relative;
+    bottom:0.6vw;
+}
+#Roze1>.sections>div:nth-child(1){
+	position: relative;
+	display:flex;
+	flex-direction:column;
+	width:5%;
+	top:30px;
+}
+#Roze1>.sections>div:nth-child(2){
+	display:flex;
+}
+#Roze1>.sections>div:nth-child(2)>ol>li{
+	font-size:1.2vw;
+	list-style-type: circle;
+}
+
+#Roze1>.sections>div:nth-child(2)>article {
+	display:flex;
+	padding:15px;
+	flex-basis:66.66%;
+	justify-content: space-between;
+
+}
+#Roze1>.sections>div:nth-child(2)>article>figure{
+	text-align:center;
+}
+#Roze1>.sections>div:nth-child(2)>article>figure>img{
+	width:100%;
+
+}
+#Roze1>.sections>div:nth-child(2)>ol{
+	flex-basis:33.33%;
+	padding:15px;
+}
+#Roze1>.sections>div:nth-child(2)>ol>li{
+	display:list-item;
+}
+
+
+
+/* opmaak deel 1 Awards & nonimations*/
+body>main>section:nth-child(4)>div:nth-child(1){
+	display:flex;
+	justify-content: space-between;
+	margin-top:150px;
+}
+body>main>section:nth-child(4)>div:nth-child(1)>figure{
+	padding:15px;
+	flex-basis:33.33%;
+}
+body>main>section:nth-child(4)>div:nth-child(1)>figure>img{
+	width:100%;
+}
+body>main>section:nth-child(4)>div:nth-child(1)>div{
+	padding:15px;
+	flex-basis:33.33%;
+}
+body>main>section:nth-child(4)>div:nth-child(1)>div>h2{
+	text-align:right;
+	position:absolute;
+}
+body>main>section:nth-child(4)>div:nth-child(1)>div>hr{
+    height: 10px;
+    border: 0;
+    border-top: 0.4vw solid ;
+    margin: 0;
+    margin-left:-9vw;
+    margin-top:-1vw;
+    position: relative;
+    top:3.5vw;
+    margin-right:-11.5vw;
+}
+body>main>section:nth-child(4)>div:nth-child(1)>p{
+	padding:15px;
+	flex-basis:33.33%;
+	position: relative;
+	top:4.2vw;
+}
+body>main>section:nth-child(4)>div:nth-child(1)>div>p{
+	position: relative;
+	top:4vw;
+}
+
+
+/* opmaak deel 2 Awards & nonimations*/
+body>main>section:nth-child(4)>article{
+	display:flex;
+	position: relative;
+	top:40px;
+}
+body>main>section:nth-child(4)>article>figure{
+	flex-basis:33.33%;
+	padding:15px;
+}
+body>main>section:nth-child(4)>article>figure>img{
+	width:100%;
+}
+body>main>section:nth-child(4)>article>div>blockquote{	
+	text-align: left;
+	color:rgb(208,196,131);
+	font-size:2.3vw;
+	font-family: 'Dancing Script', cursive;
+}
+
+body>main>section:nth-child(4)>article>div{
+	display:flex;
+	flex-direction: column;
+	flex-basis:66.66%;
+	padding:30px;
+	position:relative;
+	left:8vw;
+}
+body>main>section:nth-child(4)>article>div>hr{
+	height: 10px;
+    border: 0;
+    border-top: 0.4vw solid ;
+    margin: 0;
+    margin-left:0vw;
+    margin-top:-3.5vw;
+    position: relative;
+    top:3.5vw;
+    margin-right:-30vw;
+}
+
+
+
+/* Opmaak van foto gallerij*/
+#roze2{
+	width:100%;
+	background-color:rgb(243,223,225);
+	padding:75px 0 150px;
+	margin-top:200px;
+}
+#roze2>div>aside{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: flex-start;
+	padding:0;
+}
+#roze2>div>aside>figure{
+	padding:0;
+	flex-basis:20%;
+
+}
+#roze2>div>aside>figure>img{
+	background-color:purple;
+	width:100%;
+}
+#roze2>div>h2{
+	color:white;
+	text-align:center;
+	margin-bottom:30px;
+}
+#roze2>div>hr{
+	height: 10px;
+    border: 0;
+    border-top: 0.4vw solid ;
+    margin: 0;
+	margin:-30px 28vw 30px 28vw;
+    color:white;
+}
+
+
+/* Opmaak van video*/
+body>main>section:nth-child(6){
+	margin-top:200px;
+}
+body>main>section:nth-child(6)>div{
+	display:flex;
+	justify-content: space-between;
+}
+body>main>section:nth-child(6)>div>div:nth-child(1){
+
+
+}
+body>main>section:nth-child(6)>div>div:nth-child(1)>div{
+	display:flex;
+	flex-direction: column;
+	width:9vw;
+}
+body>main>section:nth-child(6)>div>div:nth-child(1)>p{
+	width:20vw;
+}
+body>main>section:nth-child(6)>div>div:nth-child(1)>div>h2{
+	flex-basis:30%;
+	text-align:left;
+	margin-right:0px;
+}
+body>main>section:nth-child(6)>div>div:nth-child(1)>div>hr{
+	height: 10px;
+    border: 0;
+    border-top: 0.4vw solid ;
+    margin: 0;
+    margin-left:-15vw;
+    margin-top:-10px;
+}
+body>main>section:nth-child(6)>div>div:nth-child(2)>iframe{
+	background-color:red;
+	width:50vw;
+	height:30vw;
+}
+
+
+/*Footer*/
+footer{
+	background-color:rgb(243,223,225);
+	padding:20px 0;
+	margin:200px 0 0 0;
+}
+footer>div{
+	display:flex;
+	width:80%;
+	margin:0 auto;
+	align-items: center;
+}
+footer>div>p{
+	color:white;
+	font-size:1.5vw;
+	font-family: 'Roboto Mono 300 light', monospace;
+	flex-basis:50%;
+}
+footer>div>p>span{
+	color:red;
+}
+footer>div>div{
+	display:flex;
+	flex-basis:50%;
+	text-align: right;
+	justify-content: flex-end;
+}
+footer>div>div>figure>a>img{
+width:60%;
+}
+

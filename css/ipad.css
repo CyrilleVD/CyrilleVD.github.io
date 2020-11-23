@@ -1,0 +1,286 @@
+@media screen and (max-width: 1024px){
+	/* Algemene opmaak ipad*/
+	h2{
+		font-size: 5vw;
+	}
+	body>main>div{
+
+	}
+	p{
+		font-size:1.8vw;
+	}
+	body>main>div{
+		display:none;
+	}
+	section, #sections {
+	width:90%;
+	margin:0 auto;
+	}
+
+
+	/* nav */
+	nav {
+	width:100%;
+	text-align:left;
+	padding:10px;
+	bottom:10px;
+		}
+	li{
+	display:inline;
+	margin:5px;
+	padding:0 5px 0 5px;
+
+	}
+	a {
+	text-decoration: none;
+	color:black;
+	font-size:1.5vw;
+	font-family: 'Roboto Bold', sans-serif;
+	padding:3px;
+	}
+	h1 {
+	font-size:2.3vw;
+	text-align:left;
+	flex-basis:32%;
+	padding-bottom:5px;
+	position:right;
+	color:rgb(208,196,131);
+	}
+
+
+	/* opmaak biografie deel 1*/
+	body>main>section:nth-child(1)>div:nth-child(1){
+		flex-wrap: wrap;
+	}
+	body>main>section:nth-child(1){
+		margin:0 auto;
+	}
+	body>main>section:nth-child(1)>div:nth-child(1)>p{
+		flex-basis:46%;
+		padding:0;
+	}
+	body>main>section:nth-child(1)>div:nth-child(1){
+		justify-content: space-between;
+	}
+	body>main>section:nth-child(1)>div:nth-child(1)>div{
+		flex-basis:50%;
+		padding:0px;
+	}
+	body>main>section:nth-child(1)>div:nth-child(1)>figure{
+		flex-basis:50%;
+		padding:0px;
+	}
+	body>main>section:nth-child(1)>div:nth-child(1)>div>p{
+		padding:0;
+	}
+	body>main>section:nth-child(1)>div:nth-child(1)>p>br{
+		display:none;
+	}
+	body>main>section:nth-child(1)>div:nth-child(1)>figure>img{
+		
+		width:92%;
+	}
+	body>main>section:nth-child(1)>div:nth-child(1)>div>h2{
+		margin-top:3vw;
+	}
+
+
+
+	/* opmaak biografie deel 2*/
+	body>main>section:nth-child(1)>article{
+		flex-direction: column-reverse;
+		position: relative;
+		top:-33.3vw;
+		margin-bottom:0;
+		text-align:right;
+	}
+	body>main>section:nth-child(1)>article>div{
+		flex-basis:50%;
+	}
+	body>main>section:nth-child(1)>article>div>blockquote{
+		font-size:5vw;
+	}
+	body>main>section:nth-child(1)>article>div>blockquote>br:nth-child(1), body>main>section:nth-child(1)>article>div>blockquote>br:nth-child(3){
+		display:none;
+	}
+	body>main>section:nth-child(1)>article>figure{
+		flex-basis:46%;
+		padding:0px;
+	}
+	body>main>section:nth-child(1)>article>div>hr{
+    border-top: 0.5vw solid ;
+    width:75%
+	}
+	body>main>section:nth-child(1)>article>figure>img{
+		width:50%;
+	}
+
+
+
+	/* opmaak filmography*/
+	#Roze1 {
+	margin-top:0px;
+	padding:2vw 0 7vw;
+	}
+	.sections {
+		width: 90%;
+	}
+	#Roze1>.sections>div:nth-child(1){
+		top:15px;
+	}
+	#Roze1>.sections>div:nth-child(2)>article{
+		padding:0;
+		position: relative;
+		top:2.5vw;
+	}
+
+	#Roze1>.sections>div:nth-child(2)>ol>li{
+		font-size:1.8vw;
+	}
+	#Roze1>.sections>div:nth-child(2)>article>figure{
+		
+	}
+	#Roze1>.sections>div:nth-child(2)>article>figure:nth-child(1){
+		display:none;
+	}
+
+
+
+	/* opmaak deel 1 Awards & nonimations*/
+	body>main>section:nth-child(4)>div:nth-child(1){
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	body>main>section:nth-child(4)>div:nth-child(1)>figure{
+		flex-basis:50%;
+		padding:0px;
+	}
+	body>main>section:nth-child(4)>div:nth-child(1)>figure>img{
+		
+		width:92%;
+	}
+	body>main>section:nth-child(4)>div:nth-child(1)>div{
+		flex-basis:50%;
+		padding:0px;
+	}
+	body>main>section:nth-child(4)>div:nth-child(1)>div>h2{
+		margin-top:3vw;
+		position:inherit;
+		line-height: 80%;
+
+	}
+	body>main>section:nth-child(4)>div:nth-child(1)>div>hr{
+	    height: 10px;
+	    border: 0;
+	    border-top: 0.4vw solid ;
+	    margin: 0;
+	    margin-top:-0vw;
+	    top:0vw;
+	    margin-left:-10vw;
+	    margin-right:-0vw;
+	}
+	body>main>section:nth-child(4)>div:nth-child(1)>p{
+		padding:px;
+	}
+	body>main>section:nth-child(4)>div:nth-child(1)>div>p{
+		margin-top:0;
+	}
+
+
+	/* opmaak deel 2 Awards & nonimations*/
+	body>main>section:nth-child(4)>article{
+		flex-direction: column;
+		padding:0;
+	}
+	body>main>section:nth-child(4)>article>figure{
+		width:50%;
+		padding:0;
+		margin-left: auto;
+		position: relative;
+		top:-31.5vw;;
+
+	}
+	body>main>section:nth-child(4)>article>div>blockquote{	
+		text-align: center;
+		position: relative;
+		bottom:200px;
+		font-size:3.5vw;
+	}
+
+	body>main>section:nth-child(4)>article>div{
+		
+		display:flex;
+		flex-direction: column;
+		padding:0;
+		position:initial;
+		left:0;
+	}
+	body>main>section:nth-child(4)>article>div>hr{
+		display:none;
+	}
+	body>main>section:nth-child(4)>div:nth-child(1)>p{
+		flex-basis:46%;
+		padding:0;
+	}
+
+
+	/* Opmaak van foto gallerij*/
+	#photos{
+		width: 100%
+	}
+	#roze2{
+		margin-top:0px;
+	}
+	
+
+
+	/* Opmaak van video*/
+	body>main>section:nth-child(6)>div{
+		display:flex;
+		justify-content: space-between;
+		flex-direction: column
+	}
+	body>main>section:nth-child(6)>div>div:nth-child(1){
+		display:flex;
+	}
+	body>main>section:nth-child(6)>div>div:nth-child(1)>div{
+		display:flex;
+		flex-direction: column;
+		width:9vw;
+		flex-basis:30%;
+	}
+	body>main>section:nth-child(6)>div>div:nth-child(1)>p{
+		flex-basis:70%;
+		flex-wrap: flex-end;
+	}
+	body>main>section:nth-child(6)>div>div:nth-child(1)>div>h2{
+		flex-basis:50%;
+		text-align:left;
+		margin-right:0px;
+	}
+	body>main>section:nth-child(6)>div>div:nth-child(1)>div>hr{
+	    margin-left:-10vw;
+	    margin-top:-1.5vw;
+	    margin-right:12vw;
+	}
+	body>main>section:nth-child(6)>div>div:nth-child(2){
+		text-align:center;
+		margin-top:100px;
+	}
+	body>main>section:nth-child(6)>div>div:nth-child(2)>iframe{
+	background-color:rgb(243,223,225);
+	width:70vw;
+	height:50vw;
+	}
+
+
+
+	/*Footer*/
+	footer>div>div>figure>a>img{
+	width:40%;
+	}
+	footer{
+		margin-top:100px;
+	}
+
+}
